@@ -1,4 +1,6 @@
-﻿using System.Web;
+﻿using System;
+using System.Configuration;
+using System.Web;
 using System.Web.Optimization;
 
 namespace Projectify
@@ -38,6 +40,9 @@ namespace Projectify
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            var enableOptimizationSetting = ConfigurationManager.AppSettings["EnableOptimization"];
+            BundleTable.EnableOptimizations = string.IsNullOrWhiteSpace(enableOptimizationSetting) ? false : Convert.ToBoolean(enableOptimizationSetting);
         }
     }
 }
