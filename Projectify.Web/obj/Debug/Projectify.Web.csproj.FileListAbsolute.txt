@@ -83,3 +83,4 @@ E:\Work\Projectify\projectify\Projectify.Web\bin\zh-Hant\System.Spatial.resource
 E:\Work\Projectify\projectify\Projectify.Web\obj\Debug\Projectify.Web.csprojResolveAssemblyReference.cache
 E:\Work\Projectify\projectify\Projectify.Web\obj\Debug\Projectify.dll
 E:\Work\Projectify\projectify\Projectify.Web\obj\Debug\Projectify.pdb
+E:\Work\Projectify\projectify\Projectify.Web\bin\Projectify.dll.config

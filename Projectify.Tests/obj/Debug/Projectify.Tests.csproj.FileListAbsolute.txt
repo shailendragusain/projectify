@@ -80,3 +80,8 @@ E:\Work\Projectify\projectify\Projectify.Tests\bin\Debug\zh-Hans\System.Spatial.
 E:\Work\Projectify\projectify\Projectify.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dll
 E:\Work\Projectify\projectify\Projectify.Tests\obj\Debug\Projectify.Tests.dll
 E:\Work\Projectify\projectify\Projectify.Tests\obj\Debug\Projectify.Tests.pdb
+E:\Work\Projectify\projectify\Projectify.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Work\Projectify\projectify\Projectify.Tests\bin\Debug\WebMatrix.WebData.dll
+E:\Work\Projectify\projectify\Projectify.Tests\bin\Debug\WebMatrix.Data.dll
+E:\Work\Projectify\projectify\Projectify.Tests\bin\Debug\WebMatrix.WebData.xml
+E:\Work\Projectify\projectify\Projectify.Tests\bin\Debug\WebMatrix.Data.xml

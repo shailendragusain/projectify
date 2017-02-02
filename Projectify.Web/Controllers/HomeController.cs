@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projectify.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace Projectify.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
+            ViewBag.AccessRule = new AccessRule
+            {
+                Person = new Person
+                {
+                    Name = "Test"
+                }
+            };
             return View();
         }
 
@@ -19,7 +26,7 @@ namespace Projectify.Controllers
         {
             ViewBag.Message = "Your app description page.";
 
-            return View();
+            return View("About");
         }
 
         public ActionResult Contact()
